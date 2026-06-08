@@ -24,4 +24,26 @@ Es una colección de elementos almacenados en posiciones numeradas llamadas índ
 | 1    | uva   |
 | 2    | pera   |
 
+### Acceder a un elementos
+` console.log(frutas[0]);`
+Nos dará la salida: manzana
 
+### Modificar un indice 
+`frutas[1] = "banana";`
+
+`console.log(frutas);`
+
+Nos dara la siguiente salida: `["manzana", "banana", "pera"]`
+
+### longitud de un arreglo
+Se obtiene con :
+`console.log(frutas.length);`
+
+Nos da la salida `3` 
+
+
+### Recorrer un arreglo
+Se puede hacer con un for 
+` for(let i = 0; i < frutas.length; i++){ `
+    `console.log(frutas[i]); `
+`}`
