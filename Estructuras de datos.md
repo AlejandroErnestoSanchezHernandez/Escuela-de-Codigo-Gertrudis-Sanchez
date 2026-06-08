@@ -43,8 +43,25 @@ Nos da la salida `3`
 
 
 ### Recorrer un arreglo
+Se puede hacer recorriendo indice por indice
+
 ```javascript
 for(let i = 0; i < frutas.length; i++){
     console.log(frutas[i]);
 }
+```
+Tambien se puede hacer elemento por elemento
+
+```javascript
+for(let fruta of frutas){
+    console.log(fruta);
+}
+```
+
+### Agregar elementos
+Se usa el metodo push ()
+```javascript
+frutas.push("sandia");
+
+console.log(frutas);
 ```
