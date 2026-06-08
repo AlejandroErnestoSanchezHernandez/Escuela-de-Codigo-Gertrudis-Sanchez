@@ -43,7 +43,8 @@ Nos da la salida `3`
 
 
 ### Recorrer un arreglo
-Se puede hacer con un for 
-` for(let i = 0; i < frutas.length; i++){ `
-    `console.log(frutas[i]); `
-`}`
+```javascript
+for(let i = 0; i < frutas.length; i++){
+    console.log(frutas[i]);
+}
+```
