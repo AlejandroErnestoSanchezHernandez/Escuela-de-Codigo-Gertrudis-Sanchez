@@ -70,3 +70,37 @@ Nos dara:
 ["manzana", "uva", "pera", "sandia"]
 ```
 
+### Eliminar elementos
+se usa el metodo pop(), este elimina el ultimo elemento
+Nos dara:
+```javascript
+frutas.pop();
+```
+
+El metodo shift() elimina el primer elemento.
+```javascript
+frutas.shift();
+```
+
+### Metodo map()
+Sirve para crear un nuevo arreglo transformando cada elemento.
+```javascript
+let nums = [1,2,3,4,5];
+
+let dobles = nums.map(num => num * 2);
+
+console.log(dobles);
+```
+
+Esto nos da la salida:
+```javascript
+[2,4,6,8,10]
+```
+
+| Valor Original | Resultado |
+|----------|----------|
+| 1   | 2   |
+| 2    | 4   |
+| 3    | 6   |
+| 4    | 8   |
+| 5    | 10   |
