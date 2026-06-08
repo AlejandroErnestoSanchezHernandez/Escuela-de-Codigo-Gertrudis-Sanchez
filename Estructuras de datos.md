@@ -104,3 +104,42 @@ Esto nos da la salida:
 | 3    | 6   |
 | 4    | 8   |
 | 5    | 10   |
+
+
+### Método filter()
+Sirve para seleccionar elementos que cumplan una condición.
+```javascript
+let nums = [1,2,3,4,5,6];
+
+let pares = nums.filter(num => num % 2 == 0);
+
+console.log(pares);
+```
+
+Nos da la salida:
+```javascript
+[2,4,6]
+```
+### Diferencia entre map() y filter()
+Map
+
+Transforma todos los elementos.map
+
+```javascript
+// este [2,4,6] pasa a este [2,4,6]
+```
+Filter
+Selecciona ciertos elementos
+
+```javascript
+// este [1,2,3,4,5,6] pasa a este [2,4,6]
+```
+
+### Ejercicios Básicos
+1. Crea un arreglo con 5 nombres y muéstralos en pantalla.
+2. Muestra el primer y último elemento del arreglo.
+3. Crea un arreglo con tres colores y agrega dos más usando push().
+4. Crea un arreglo con cinco números y elimina el primero usando shift().
+5. Muestra todos los elementos usando un ciclo for.
+6. Convertir ma mayúsculas ["juan","ana","pedro"]
+7. Filtrar pares [1,2,3,4,5,6,7,8]
