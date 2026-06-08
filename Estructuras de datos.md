@@ -65,3 +65,8 @@ frutas.push("sandia");
 
 console.log(frutas);
 ```
+Nos dara:
+```javascript
+["manzana", "uva", "pera", "sandia"]
+```
+
